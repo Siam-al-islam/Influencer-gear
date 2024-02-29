@@ -114,14 +114,13 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    gap: 30px;
     margin-bottom: 50px;
 }
 
 .item {
     border: 1px solid red;
-    /* width: 100%; */
-    min-width: 300px;
+    width: 100%;
+    max-width: 300px;
     padding: 15px;
     border-radius: 5px;
     background-color: white;
