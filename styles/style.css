@@ -5,8 +5,11 @@
 
 body {
     background-color: rgba(236, 236, 236, 0.865);
-    margin: 30px 120px 0 120px;
     font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin: 30px 120px 0 120px;
 }
 
 nav {
@@ -63,7 +66,7 @@ a {
     margin-bottom: 16px;
 }
 
-.prebook-btn {
+.primary-btn {
     color: white;
     font-weight: 700;
     background-color: #E02C6D;
@@ -96,6 +99,7 @@ a {
 
 .collection {
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 .collection h1 {
@@ -111,11 +115,13 @@ a {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 30px;
-
+    margin-bottom: 50px;
 }
 
 .item {
-    width: fit-content;
+    border: 1px solid red;
+    /* width: 100%; */
+    min-width: 300px;
     padding: 15px;
     border-radius: 5px;
     background-color: white;
@@ -148,4 +154,59 @@ a {
     color: #787885;
     font-size: 14px;
     font-weight: bold;
+}
+
+.see-more-btn {
+    float: right;
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: 700;
+}
+
+/* featured style  */
+
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+
+.featured-description {
+    width: 610px;
+}
+
+.featured-description h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.featured-description p {
+    color: #6C6C6C;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+/* footer section style  */
+
+footer {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 37);
+}
+
+footer span {
+    font-size: 14px;
+}
+
+.social {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
