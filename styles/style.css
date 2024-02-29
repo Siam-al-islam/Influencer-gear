@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px 120px 0 120px;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 34px;
+}
+
+nav ul li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/* banner style  */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    /* width: 580px; */
+    gap: 130px;
+}
+
+.banner-image {
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner-description h1 {
+    color: #3A3A3A;
+    margin-bottom: 16px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.banner-description p {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.prebook-btn {
+    color: white;
+    font-weight: 700;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+}
