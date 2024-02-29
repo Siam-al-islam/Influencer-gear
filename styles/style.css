@@ -4,6 +4,7 @@
 }
 
 body {
+    background-color: rgba(236, 236, 236, 0.865);
     margin: 30px 120px 0 120px;
     font-family: "Poppins", sans-serif;
 }
@@ -76,7 +77,7 @@ a {
 
 .sponsors-container {
     margin-top: 70px;
-    border-image: linear-gradient(#ceccc8b1, #71766da7, rgba(170, 170, 177, 0.442), rgba(149, 144, 144, 0.499)) 30;
+    border-image: linear-gradient(#ceccc8b1, #dde3d9a7) 30;
     border-width: 1px;
     border-style: solid;
     border-left: 0;
@@ -89,4 +90,62 @@ a {
     gap: 60px;
     align-items: center;
     justify-content: center;
+}
+
+/* collection style  */
+
+.collection {
+    margin-top: 100px;
+}
+
+.collection h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.items {
+    border: 2px solid saddlebrown;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 30px;
+
+}
+
+.item {
+    width: fit-content;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.item img {
+    margin-bottom: 16px;
+}
+
+.item h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.rating-container {
+    display: flex;
+    gap: 10px;
+}
+
+.rating i {
+    color: orange;
+    font-size: 14px;
+}
+
+.item-details {
+    color: #787885;
+    font-size: 14px;
+    font-weight: bold;
 }
