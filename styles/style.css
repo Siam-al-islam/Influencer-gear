@@ -11,7 +11,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav h3 {
@@ -70,4 +70,23 @@ a {
     border: 0;
     border-radius: 40px;
     cursor: pointer;
+}
+
+/* sponsors section stye  */
+
+.sponsors-container {
+    margin-top: 70px;
+    border-image: linear-gradient(#ceccc8b1, #71766da7, rgba(170, 170, 177, 0.442), rgba(149, 144, 144, 0.499)) 30;
+    border-width: 1px;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    padding: 36px 60px;
+}
+
+.sponsors {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
 }
