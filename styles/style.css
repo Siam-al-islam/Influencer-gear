@@ -77,6 +77,12 @@ a {
     cursor: pointer;
 }
 
+.primary-btn:hover{
+    color: #E02C6D;
+    background-color: white;
+    border: 1px solid #E02C6D;
+}
+
 /* sponsors section stye  */
 
 .sponsors-container {
