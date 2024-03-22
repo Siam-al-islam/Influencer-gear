@@ -72,7 +72,7 @@ a {
     font-weight: 700;
     background-color: #E02C6D;
     padding: 12px 24px;
-    border: 0;
+    border: 2px solid #E02C6D;
     border-radius: 40px;
     cursor: pointer;
     transition: .3s;
