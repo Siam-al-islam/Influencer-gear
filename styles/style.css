@@ -139,6 +139,11 @@ a {
 .item img {
     width: 100%;
     margin-bottom: 16px;
+    transition: .3s;
+}
+
+.item img:hover {
+    transform: scale(.4);
 }
 
 .item h2 {
