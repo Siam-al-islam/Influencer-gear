@@ -132,7 +132,7 @@ a {
     background-color: white;
 }
 
-.item:hover {
+.item:hover img {
     transform: scale(1.2);
 }
 
