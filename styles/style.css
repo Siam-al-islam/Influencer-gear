@@ -119,7 +119,7 @@ a {
 
 .items {
     display: grid;
-    gap: 30px;
+    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin-bottom: 50px;
