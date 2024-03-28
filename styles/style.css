@@ -64,10 +64,10 @@ a {
 
 .banner-description p {
     font-weight: 600;
-    margin-bottom: 16px;
 }
 
 .primary-btn {
+    margin-top: 16px;
     color: white;
     font-weight: 700;
     background-color: #E02C6D;
